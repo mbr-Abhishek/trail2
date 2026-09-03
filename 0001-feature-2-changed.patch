@@ -1,0 +1,43 @@
+From 25254bba7ce43eab31ffde49c0ac68215b8554d6 Mon Sep 17 00:00:00 2001
+From: Abhishek <abhsihek@mbedrock.com>
+Date: Thu, 3 Sep 2026 12:54:41 +0530
+Subject: [PATCH] feature 2 changed
+
+---
+ feature2.patch | Bin 0 -> 770 bytes
+ index.html     |   2 +-
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ create mode 100644 feature2.patch
+
+diff --git a/feature2.patch b/feature2.patch
+new file mode 100644
+index 0000000000000000000000000000000000000000..f91102f3778f170c31ccf977be53e38fdabdbf4c
+GIT binary patch
+literal 770
+zcmaKq$xg#S5Jc;Y#6JvYa8`nXgivm9LI`o>0&xrx&Z5L9<mZ7`V+KNiXykD()m^>J
+z`&+KD3QkbQc|@y_@6|+_D%VJ_YUl~;L?xbwe?0rz+lUB6_SEI;k-JNVhWctn%Me>m
+zrZ##@CpzXh+WgrLZetGP*<Hmz1F~c~)luXK#8~cQwa<Bi&giMFb6wJ5$(dnWaW9Z_
+z9pG<%A`*TM`WD+*OR)7_p^wlC^aXa$&T<*8o?u{ZYwjtQ75@voM%|##;cG-D=l+|g
+z1n=0yXud_%t61}r3T82L`cERlo1C)G)YUW9{p8Bx3_377=kFQR6R<y3c8%<gHz$z#
+zn)7BV4e>h8$Q0$?wxbFdjem)~bhc*T$m}b=$(x(8ll4YU@1}l{HP0P=Ud4IT^?Xmw
+QECDvZ<p9DjJ#EN5AFI7|YXATM
+
+literal 0
+HcmV?d00001
+
+diff --git a/index.html b/index.html
+index 8035c5d..e7b68d3 100644
+--- a/index.html
++++ b/index.html
+@@ -11,6 +11,6 @@
+ <p>This line is here to show how merging works.</p>
+ <P>this is new patch</P>
+ <p>this is feature2</p>
+-
++<p>feature2 changed</p>
+ </body>
+ </html>
+\ No newline at end of file
+-- 
+2.34.0.windows.1
+
